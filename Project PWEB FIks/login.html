@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Login Sederhana</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="title">Login</div>
+      <form action="dashboard/dashboard.php" autocomplete="on">
+        <div class="field">
+            <!-- text agar inputan terlihat. required utk memberikan pesan jika inputan kosong/ada salah -->
+            <input type="text" required>
+            <label>Username</label>
+        </div>
+        <div class="field">
+            <input type="password" required>
+            <label>Password</label>
+        </div>
+        <div class="content">
+            <div class="checkbox">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+            <div class="password-link">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+        <div class="field btn">
+            <input type="submit" value="Login">
+        </div>
+        <div class="regis-link">
+            Don`t have an account?
+            <a href="regis/regis.html">Create one</a>
+        </div>
+      </form>
+    </div>
+</body>
+</html>

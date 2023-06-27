@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    display: grid;
+    height: 120%;
+    width: 100%;
+    place-items: center;
+    background-image: url('https://i.pinimg.com/564x/57/6b/cc/576bcc357363251c23a2b7357c868ec4.jpg');
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+::selection{
+    background:rgb(184, 198, 251);
+    color:rgb(255, 255, 255);
+}
+
+form {
+    height: 40px;
+    padding-bottom: 20px;
+}
+.search {
+    padding-left: 20px;
+    height: 30px;
+    width: 31%;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    height: 30px;
+    width: 50px;
+    position:relative;
+    left:-4px;
+    border:2px solid rgba(9, 79, 164, 0.612);
+    background-color:rgba(9, 79, 164, 0.612);
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.box{
+    height: 75%;
+    width: 75%;
+    padding-left: 20px;
+    padding-right:20px;
+    background:rgba(243, 247, 252, 0.495);
+    box-shadow: 0 0 1rem 0 rgb(6, 37, 79);
+}
+.box .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color:rgb(9, 79, 164);
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, );
+}
+.box .atas{
+    height: 42px;
+    width: 100%;
+    place-self: center;
+    background-color: rgba(9, 79, 164, 0.612);
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    font-weight: 350px;
+    text-align: center;
+    line-height: 41px;
+}
+.box .atas table{
+    border: 1.2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+.box .atas table tr{
+    height: 60%;
+    border: 1.2px solid black;
+    border-collapse: collapse;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.box .atas table td{
+    border: 1.2px solid black;
+    border-collapse: collapse;
+    padding: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.box .atas tr .no{
+    width:1%;
+}
+.box .atas tr .nama{
+    width:25%;
+}
+.box .atas tr .alamat{
+    width:35%;
+}
+.box .atas tr .vaksin{
+    width:20%;
+}
+.box .atas tr .kota{
+    width:20%;
+}

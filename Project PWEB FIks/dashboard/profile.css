@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url('https://i.pinimg.com/564x/57/6b/cc/576bcc357363251c23a2b7357c868ec4.jpg');
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+::selection{
+    background:rgb(184, 198, 251);
+    color:rgb(255, 255, 255);
+}
+.box{
+    height: 60%;
+    width: 75%;
+    background:rgba(243, 247, 252, 0);
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgb(6, 37, 79);
+}
+.box .atas{
+    height: 40px;
+    width: 100%;
+    place-self: center;
+    border-radius: 15px;
+    background-color: rgba(9, 79, 164, 0.612);
+    color: white;
+    font-size: 25px;
+    font-weight: 350px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 1rem 0 rgb(6, 37, 79);;
+}
+.box .kiri{
+    height: 250px;
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.box .kiri .gambar{
+    background-image: url('https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg');
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.box .tengah{
+    height: 400px;
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+}
+.box .kanan{
+    height: 400px;
+    width: 250px;
+    margin-left: 60%;
+}
+.box .tengah .atasnya,
+.box .kanan .atasnya{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.box .tengah .atasnya input[type="text"],
+.box .kanan .atasnya input[type="text"]{
+    height: 60%;
+    width: 120%;
+    outline:white;
+    font-size: 17px;
+    padding-left: 13px;
+    background: rgba(9, 79, 164, 0.44);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.box .kanan .atasnya input[type="date"]{
+    height: 60%;
+    width: 120%;
+    outline:white;
+    font-size: 17px;
+    padding-left: 13px;
+    background: rgba(9, 79, 164, 0.44);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.box .kanan .button{
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+.box .kanan .button input[type="button"]{
+    height: 60%;
+    width: 120%;
+    outline:white;
+    font-size: 17px;
+    background: rgba(9, 79, 164, 0.742);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.box .kanan .button input[type="button"]:active{
+    background:rgba(13, 109, 225, 0.647);
+    transform: scale(0.93);
+}
